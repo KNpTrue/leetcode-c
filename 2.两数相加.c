@@ -4,6 +4,11 @@
  * [2] 两数相加
  */
 
+struct ListNode {
+    int val;
+    struct ListNode *next;
+};
+
 // @lc code=start
 /**
  * Definition for singly-linked list.
